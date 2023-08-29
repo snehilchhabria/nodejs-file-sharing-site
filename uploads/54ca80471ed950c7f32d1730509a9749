@@ -1,0 +1,60 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <bdoy>
+    <header>
+      <h1 id= "title">PSIT STUDENTS</h1>
+    <p id= "description">How is the college life?</p>
+    </header>
+    <main>
+      <form id = "survey-form">
+        <label for = "name" id="name-label">Please enter your name: </label>
+        <input id = "name" type ="text" required placeholder="Snehil Chhabria">
+
+        <label for = "email" id="email-label">Please enter your e-mail: </label>
+        <input id = "email" type ="email" required placeholder="snehil@psit.com">
+
+        <label for = "number" id="number-label">Please enter your age: </label>
+        <input id = "number" type ="number" min="5" max="100" required placeholder="age">
+
+        <label for = "dropdown">Cake or Coffee: </label>
+
+        <select id = "dropdown">
+        <option> Cake </option>
+        <option> Coffee </option>
+        </select>
+
+        <label>Placements or Company: </label>
+        <input type = "radio" name="radio-group" id="placements" value="0">
+        <label for="placements">Placements</label>
+        <input type = "radio" name="radio-group" id="company" value="1">
+        <label for="company">Company</label>
+
+         <label>Pancake or Sandwich: </label>
+         <input type ="checkbox" value="0" ID="pancake">
+         <lable for="pancake">Pancake</label>
+         <input type ="checkbox" value="1" ID="pancake">
+         <lable for="sandwich">Sandwich</label>
+
+         <textarea>
+           Please enter your additonal comments here:
+         </textarea>
+
+        <input id = "submit" type="submit">
+      </form>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
