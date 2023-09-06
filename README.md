@@ -2,7 +2,6 @@
 
 Welcome to our Secure File Sharing Web App! This application allows you to securely upload and share files with others. With built-in password protection, you can ensure that your files are accessed only by those who have the correct password.
 
-![App Screenshot](screenshot.png)
 
 ## Features
 
